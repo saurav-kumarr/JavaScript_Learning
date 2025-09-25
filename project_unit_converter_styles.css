@@ -1,0 +1,89 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin : 0;
+    padding: 20px;
+    background-color: wheat;
+    
+}
+
+
+h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 200px;
+
+}
+
+select{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 200px;
+    cursor: pointer;
+
+}
+ 
+select option[value="mToFt"] {
+  background-color: lightblue;
+  color: brown;
+
+}
+
+
+select option[value="kgToLb"] {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+select option[value="cToFh"] {
+  background-color: lightpink;
+  color: darkred;
+}
+
+
+button {
+    background-color: rgb(109, 25, 25);
+    color: whitesmoke;
+    border: 1px solid black;
+    padding: 6px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(56, 4, 4);
+
+}
+
+p {
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+
+}
+
+
+#convertedValue {
+    color: blueviolet;
+    font-size: large;
+    font-weight: bold;
+}
