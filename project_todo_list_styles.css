@@ -1,0 +1,85 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+}
+
+#taskContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+
+input[type='text'] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkred;
+    white-space: normal;   /* allows text to wrap */
+    word-wrap: break-word; /* breaks long words if needed */
+    overflow-wrap: break-word;
+    padding: 10px;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    #taskContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input[type='text'] {
+    width: 100%;
+    margin: 5px 0;
+   }
+
+   ul {
+    width: 90%;
+   }
+
+}
